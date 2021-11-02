@@ -8,89 +8,134 @@
 </head>
 
 <body>
-  <header class="page-header">
-    <nav class="navigation">
-      <nav class="navigation-list">
-        <nav class="navigation-link">
-          <a href="index.html">Главная</a>
+  <div class="wrapper">
+    <header class="page-header">
+      <nav class="navigation">
+        <nav class="navigation-list">
+          <nav class="navigation-link">
+            <a href="index.html">Главная</a>
+          </nav>
+          <nav class="navigation-link">
+            <a href="catalog.html">О Седоне</a>
+          </nav>
+          <nav class="navigation-link">
+            <a href="catalog.html">Гостиницы</a>
+          </nav>
         </nav>
-        <nav class="navigation-link">
-          <a href="catalog.html">О Седоне</a>
+        <nav class="logo">
+          <a href="/"><img src="img/sedona.svg" alt="Логотип Гостиницы «SEDONA»"></a>
         </nav>
-        <nav class="navigation-link">
-          <a href="catalog.html">Гостиницы</a>
+        <nav class="navigation-user">
+          <nav class="visually">
+            <img src="img/search.svg" alt="Поиск">
+          </nav>
+          <nav class="visually">
+            <img src="img/favourites.svg" alt="Избранное">
+          </nav>
+          <button class="navigation-link-button">Хочу сюда</button>
         </nav>
       </nav>
-      <nav class="logo">
-        <a href="/"><img src="img/sedona.svg" alt="Логотип Гостиницы «SEDONA»"></a>
-      </nav>
-      <nav class="navigation-user">
-        <nav class="visually">
-          <img src="img/search.svg" alt="Поиск">
-        </nav>
-        <nav class="visually">
-          <img src="img/favourites.svg" alt="Избранное">
-        </nav>
-        <button class="navigation-link-button">Хочу сюда</button>
-      </nav>
-    </nav>
-  </header>
-  <main class="main-container main-index">
-    <div class="page-container">
+    </header>
+    <main class="main-container main-index">
+      <div class="page-container">
 
-      <div class="background-image">
-        <img src="img/welcome.svg" class="img-welcome" alt="добро пожаловать в гостиницу Седона">
-        <img src="img/vector.png">
+        <div class="background-image">
+          <img src="img/welcome.svg" class="img-welcome" alt="добро пожаловать в гостиницу Седона">
+          <img src="img/vector.png">
+        </div>
+        <section class="">
+          <div class=" definition-sedona">
+            <h2 class="visually-hidden">Седона - небольшой городок в Аризоне, <br> заслуживающий большего!</h2>
+            <p class="advantages-subtitle">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+          </div>
+          <ol class="advantages-list">
+            <li class="advantages-item">
+            <Li class="advantages-item-inner">
+              <h3 class="advantages-title">Настоящий<br> городок</h3>
+              <p class="advantages-description">- №1 -</p>
+              <p class="advantages-description-sedona">Седона - не атракцион<br> для туристов, там течет<br> своя жизнь
+              </p>
+            </li>
+            <img src="img/photo-1.jpg" alt="Фото гостиницы Седона">
+            <ul>
+              <li class="advantages-house">
+                <img src="img/group.svg" class="advantages-hotel" alt="иконка дома">
+                <h3 class="services-name">ЖИЛЬЕ</h3>
+                <p class="services-price">Рекомендуем пожить<br> в настоящем мотеле,<br> все как в кино!</p>
+              </li>
+              <li>
+                <img src="img/icon-2.svg" class="advantages-hotel" alt="иконка еды">
+                <h3 class="services-name">ЕДА</h3>
+                <p class="services-price">Всегда заказывайте<br> топовый фирменный бургер,<br> вы не разочаруетесь!
+                </p>
+              </li>
+              <li>
+                <img src="img/icon-3.svg" class="advantages-hotel" alt="иконка подарка">
+                <h3 class="services-name">СУВЕНИРЫ</h3>
+                <p class="services-price">Не только китайского,<br> но и настоящего местного<br> производства!</p>
+              </li>
+            </ul>
+            </li>
+            <img src="img/photo-2.jpg" alt="Фото природы вокруг гостиницы Седона">
+            <li class="advantages-1-2">
+              <h3 class="advantages-title">Там есть<br> мост дьявола</h3>
+              <p class="advantages-description">- №2 -</p>
+              <p class="advantages-description">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
+            </li>
+            <li class="">
+              <h3 class="services-name advantages-hotel">Небольшая<br> площадь</h3>
+              <p class="advantages-description">- №3 -</p>
+              <p class="advantages-description">Все достопримечательности<br> находятся очень близко</p>
+            </li>
+            <li class="advantages-gift">
+              <h3 class="services-name advantages-hotel">Красивая<br> дорога</h3>
+              <p class="advantages-description">- №4 -</p>
+              <p class="advantages-description">Ехать в Седону из Лас-Вегаса<br> совсем не скучно!</p>
+            </li>
+            <li class="">
+              <h3 class="services-name advantages-hotel">Мало<br> туристов</h3>
+              <p class="advantages-description">- №5 -</p>
+              <p class="advantages-description">Большинство едет в Гранд<br> Каньон и толпится там</p>
+            </li>
+          </ol>
+          <!--<img src="img/photo-1.jpg" alt="Фото гостиницы Седона">
+              <div class="advantages-house advantages-item">
+                <img src="img/group.svg" class="advantages-hotel" alt="иконка дома">
+                <h3 class="services-name">ЖИЛЬЕ</h3>
+                <p class="services-price">Рекомендуем пожить<br> в настоящем мотеле,<br> все как в кино!</p>
+              </div>
+              <div class="advantages-item">
+                <img src="img/icon-2.svg" class="advantages-hotel" alt="иконка еды">
+                <h3 class="services-name">ЕДА</h3>
+                <p class="services-price">Всегда заказывайте<br> топовый фирменный бургер,<br> вы не разочаруетесь!</p>
+              </div>
+              <div class="advantages-gift advantages-item">
+                <img src="img/icon-3.svg" class="advantages-hotel" alt="иконка подарка">
+                <h3 class="services-name">СУВЕНИРЫ</h3>
+                <p class="services-price">Не только китайского,<br> но и настоящего местного<br> производства!</p>
+              </div>
+              <img src="img/photo-2.jpg" alt="Фото природы вокруг гостиницы Седона">
+              <div class="advantages-1-2 advantages-item">
+                <h3 class="advantages-title">Там есть<br> мост дьявола</h3>
+                <p class="advantages-description">- №2 -</p>
+                <p class="advantages-description">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
+              </div>
+              <div class="advantages-item">
+                <h3 class="services-name advantages-hotel">Небольшая<br> площадь</h3>
+                <p class="advantages-description">- №3 -</p>
+                <p class="advantages-description">Все достопримечательности<br> находятся очень близко</p>
+              </div>
+              <div class="advantages-gift advantages-item">
+                <h3 class="services-name advantages-hotel">Красивая<br> дорога</h3>
+                <p class="advantages-description">- №4 -</p>
+                <p class="advantages-description">Ехать в Седону из Лас-Вегаса<br> совсем не скучно!</p>
+              </div>
+              <div class="advantages-item">
+                <h3 class="services-name advantages-hotel">Мало<br> туристов</h3>
+                <p class="advantages-description">- №5 -</p>
+                <p class="advantages-description">Большинство едет в Гранд<br> Каньон и толпится там</p>
+              </div>-->
       </div>
-      <section class="">
-        <div class=" definition-sedona">
-          <h2 class="visually-hidden">Седона - небольшой городок в Аризоне, <br> заслуживающий большего!</h2>
-          <p class="advantages-subtitle">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-        </div>
-        <div class="advantages">
-          <div class="advantages-1-2 advantages-item">
-            <h3 class="advantages-title">Настоящий<br> городок</h3>
-            <p class="advantages-description">- №1 -</p>
-            <p class="advantages-description">Седона - не атракцион<br> для туристов, там течет<br> своя жизнь</p>
-          </div>
-          <img src="img/photo-1.jpg" alt="Фото гостиницы Седона">
-          <div class="advantages-house advantages-item">
-            <img src="img/group.svg" class="advantages-hotel" alt="иконка дома">
-            <h3 class="services-name">ЖИЛЬЕ</h3>
-            <p class="services-price">Рекомендуем пожить<br> в настоящем мотеле,<br> все как в кино!</p>
-          </div>
-          <div class="advantages-item">
-            <img src="img/icon-2.svg" class="advantages-hotel" alt="иконка еды">
-            <h3 class="services-name">ЕДА</h3>
-            <p class="services-price">Всегда заказывайте<br> топовый фирменный бургер,<br> вы не разочаруетесь!</p>
-          </div>
-          <div class="advantages-gift advantages-item">
-            <img src="img/icon-3.svg" class="advantages-hotel" alt="иконка подарка">
-            <h3 class="services-name">СУВЕНИРЫ</h3>
-            <p class="services-price">Не только китайского,<br> но и настоящего местного<br> производства!</p>
-          </div>
-          <img src="img/photo-2.jpg" alt="Фото природы вокруг гостиницы Седона">
-          <div class="advantages-1-2 advantages-item">
-            <h3 class="advantages-title">Там есть<br> мост дьявола</h3>
-            <p class="advantages-description">- №2 -</p>
-            <p class="advantages-description">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
-          </div>
-          <div class="advantages-item">
-            <h3 class="services-name advantages-hotel">Небольшая<br> площадь</h3>
-            <p class="advantages-description">- №3 -</p>
-            <p class="advantages-description">Все достопримечательности<br> находятся очень близко</p>
-          </div>
-          <div class="advantages-gift advantages-item">
-            <h3 class="services-name advantages-hotel">Красивая<br> дорога</h3>
-            <p class="advantages-description">- №4 -</p>
-            <p class="advantages-description">Ехать в Седону из Лас-Вегаса<br> совсем не скучно!</p>
-          </div>
-          <div class="advantages-item">
-            <h3 class="services-name advantages-hotel">Мало<br> туристов</h3>
-            <p class="advantages-description">- №5 -</p>
-            <p class="advantages-description">Большинство едет в Гранд<br> Каньон и толпится там</p>
-          </div>
-        </div>
       </section>
       <section class="services">
 
@@ -102,7 +147,7 @@
           <button class="button-search">Поиск гостиницы в Седоне</button>
         </section>
       </section>
-    </div>
+  </div>
   </main>
   <footer class="footer-name">
     <div class="background-footer">
@@ -127,6 +172,7 @@
     </form>
 
   </footer>
+  </div>
 </body>
 
 </html>
