@@ -434,13 +434,12 @@ body {
 .product-list-block {
   display: flex;
   width: 1056px;
-  height: 123px;
   margin-top: 50px;
 }
 
 
 .product-card-image {
-  float: left;
+  
 }
 
 .product-list-hotel {
@@ -448,23 +447,31 @@ body {
 }
 
 .product-list-option {
-  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
 
 .product-list-rating {
 
   width: 160px;
-  margin-left: 710px;
+  margin-left: 334px;
   text-align: center;
-  margin-top: -107px;
+  
 }
 
 .img-rating {
-  margin-top: 60px;
+  width: 160px;
+  height: 37px;
+  left: 1008px;
+  top: 721px;;
+  background: #F2F2F2;
+  border-radius: 4px;
+  border: none;
+  margin-top: 61px;
 }
 
 .product {
-  float: left;
   margin-left: 50px;
 
 }
@@ -571,11 +578,10 @@ body {
   font-size: 18px;
   font-weight: normal;
   text-align: left;
-  width: auto;
   vertical-align: top;
   color: #000000;
   background-color: #FFFFFF;
-  float: left;
+  margin-right: 61px;
 }
 
 .product-card-button {
@@ -583,13 +589,17 @@ body {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
-  width: auto;
   vertical-align: top;
   color: #FFFFFF;
   background-color: #756257;
   text-transform: uppercase;
   text-decoration: none;
   border: none;
+  width: 151px;
+  height: 37px;
+  left: 328px;
+  top: 902px;
+  border-radius: 4px;
 }
 
 .favourites {
@@ -597,13 +607,16 @@ body {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
-  width: auto;
   vertical-align: top;
   color: #FFFFFF;
   background-color: #83B3D3;
   text-decoration: none;
   text-transform: uppercase;
   border: none;
+  width: 160px;
+  height: 37px;
+  left: 487px;
+  top: 721px;
 }
 
 .product-card-favourites {
@@ -611,13 +624,16 @@ body {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
-  width: auto;
   vertical-align: top;
   color: #FFFFFF;
   background-color: #7DB54F;
   text-decoration: none;
   text-transform: uppercase;
   border: none;
+  width: 160px;
+  height: 37px;
+  left: 487px;
+  top: 1083px;
 }
 
 .product-pages {
@@ -660,10 +676,10 @@ body {
   align-items: center;
 }
 
-.block-pages {
-
+.contacts-form {
+  display: flex;
 }
 
 .sorting {
-
+  display: flex;
 }
