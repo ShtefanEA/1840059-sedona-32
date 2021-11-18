@@ -510,6 +510,14 @@ body {
 
 .select-control {
   display: inline-block;
+  margin-left: auto;
+  width: 160px;
+  height: 48px;
+  left: 998px;
+  top: 1484px;
+  border: 2px solid #E6E6E6;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .select-option {
@@ -674,7 +682,10 @@ body {
   vertical-align: top;
   color: #000000;
   background-color: #FFFFFF;
-  margin-right: 61px;
+  width: 386px;
+  height: 48px;
+  left: 772px;
+  top: 1484px;
 }
 
 .product-card-button {
@@ -751,8 +762,7 @@ body {
 }
 
 .pages {
-  font-family: inherit;
-  font-size: 20px;
+  display: block;
   font-weight: bold;
   text-align: center;
   vertical-align: middle;
@@ -761,12 +771,37 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border: none;
+  box-sizing: border-box;
+  width: 50px;
+  height: 44px;
+  padding: 14px 20px;
+  line-height: 16px;
+  font-weight: 700;
+  border-radius: 4px;
+  margin: 3px;
 }
 
 .number-pages {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  background-color: #FFFFFF;
+  padding: 16px;
+}
+
+.block-pages {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.pagination-item {
+  color: #242424;
+  background-color: #FFFFFF;
 }
 
 .contacts-form {
