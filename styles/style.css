@@ -510,11 +510,9 @@ body {
 
 .select-control {
   display: inline-block;
-  margin-left: auto;
+  margin-left: -135px;
   width: 160px;
   height: 48px;
-  left: 998px;
-  top: 1484px;
   border: 2px solid #E6E6E6;
   box-sizing: border-box;
   border-radius: 4px;
@@ -682,10 +680,16 @@ body {
   vertical-align: top;
   color: #000000;
   background-color: #FFFFFF;
+  width: 225px;
+}
+
+.residence-footer {
+  font-family: inherit;
   width: 386px;
   height: 48px;
-  left: 772px;
-  top: 1484px;
+  color: #000000;
+  background-color: #FFFFFF;
+  
 }
 
 .product-card-button {
@@ -772,8 +776,8 @@ body {
   text-transform: uppercase;
   border: none;
   box-sizing: border-box;
-  width: 50px;
-  height: 44px;
+  width: 56px;
+  height: 55px;
   padding: 14px 20px;
   line-height: 16px;
   font-weight: 700;
@@ -801,7 +805,7 @@ body {
 
 .pagination-item {
   color: #242424;
-  background-color: #FFFFFF;
+  background: #F2F2F2;
 }
 
 .contacts-form {
@@ -810,4 +814,5 @@ body {
 
 .sorting {
   display: flex;
+  margin: 10px auto 5px 257px;
 }
