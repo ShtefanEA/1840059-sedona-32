@@ -61,8 +61,6 @@ body {
 .logo {
   display: block;
   margin-bottom: -5px;
-  width: 138px;
-  height: 70px;
 }
 
 .logo:focus-visible {
@@ -398,21 +396,12 @@ body {
   display: block;
   object-fit: cover;
   grid-column: 2/4;
-  width: 800px;
-  height: 384px;
 }
 
 .advantages-image-left {
   display: block;
   object-fit: cover;
   grid-column: 1/3;
-  width: 800px;
-  height: 384px;
-}
-
-.img-welcome {
-  width: 1200px;
-  height: 485px;
 }
 
 .advantages-subtitle {
